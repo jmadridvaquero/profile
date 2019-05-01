@@ -1,0 +1,150 @@
+
+body{
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+}
+
+#img-photo-profile {
+    border-radius: 15px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+#header {
+    background-color: #FFFFFF;
+    align-self: center;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+    border-radius: 4px;
+    width: 420px;
+    margin: 25px auto;
+}
+
+.card {
+    background-color: #FFFFFF;
+    align-self: center;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+    border-radius: 4px;
+    width: 420px;
+    margin: 25px auto;
+}
+
+h1 {
+    color: #575F7D;
+    font-size: 32px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #6F686D;
+    font-weight: 600;
+    font-size: 18px;   
+}
+
+h2 {
+    color: #7ECE90;
+    font-size: 20px;
+    font-weight: lighter;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Lora'
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover {
+	color: #5F4B66;
+}
+
+/*  buttons */
+
+.btn-blue {
+  text-decoration: none;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  background-color:#97c4bf;
+  color: white;
+  padding: 8px 16px;
+  transition: 0.2s;
+  margin: 15px;
+  font-size: 18px;
+}
+
+.btn-blue:hover {
+  background-color:#1f2329;
+  border-radius: 3px;
+  color: #f4f4f4;
+}
+
+/* social media buttons */
+
+.in-line {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
+.in-line a {
+    font-size: 32px;
+    margin-right: 24px;
+}
+
+/* responsiveness */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  #header {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  #header {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  #header {
+    width: 300px;
+  }
+}
